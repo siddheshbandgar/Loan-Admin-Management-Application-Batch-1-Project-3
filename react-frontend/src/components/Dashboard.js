@@ -27,7 +27,6 @@ const Dashboard = (props) => {
           alignItems: "center",
         }}
       >
-        
         <Typography component="h1" variant="h3">
           Dashboard
         </Typography>
@@ -58,6 +57,7 @@ const Dashboard = (props) => {
             className="m-2"
             variant="contained"
             sx={{ mt: 10, mb: 2 }}
+            onClick={(e) => navigate("/items")}
           >
             Items Master Data
           </Button>

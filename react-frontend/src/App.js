@@ -7,6 +7,8 @@ import  AddCustomer  from './components/AddCustomer';
 import Login from './components/Login';
 import ListLoanCardDetails from './components/ListLoanCardDetails';
 import AddLoanCardComponent from './components/AddLoanCardComponent';
+import ItemListComponent from './components/ItemListComponent';
+import AddItem from './components/AddItem'; 
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -26,8 +28,11 @@ function App() {
           <Route path = "/loancards" element = {<ListLoanCardDetails />} />
           <Route path = "/loancards/add-loandetails" element = {<AddLoanCardComponent />} />
           <Route path = "/loancards/edit-loandetails/:id" element = {<AddLoanCardComponent />} />
+          <Route path="/items" element={<ItemListComponent />}></Route>
+          <Route path="/add-item" element={<AddItem />}></Route>
+          <Route path="/edit-item/:id" element={<AddItem />}></Route>
           <Route path="/" element={<Login />}></Route>
-          <Route path="*" element={<Login />}></Route>
+          <Route path="*" element={<Dashboard />}></Route>
         </Routes>
         <ToastContainer />
         <FooterComponent />
