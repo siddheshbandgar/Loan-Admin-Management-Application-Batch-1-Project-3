@@ -1,7 +1,6 @@
 package com.wellsfargo.springboot;
 
-import com.wellsfargo.springboot.model.Customer;
-import com.wellsfargo.springboot.repository.CustomerRepository;
+import com.wellsfargo.springboot.dao.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -34,7 +34,7 @@ export const HeaderComponent = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onClick={(e)=>{
+                <a class="nav-link" href onClick={(e)=>{
                   toast.info("Logged Out Successfully!", {
                   position: "bottom-center",
                   autoClose: 5000,

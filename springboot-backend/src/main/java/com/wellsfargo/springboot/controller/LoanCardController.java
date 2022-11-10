@@ -2,7 +2,7 @@ package com.wellsfargo.springboot.controller;
 
 import com.wellsfargo.springboot.exception.ResourceNotFoundException;
 import com.wellsfargo.springboot.model.LoanCard;
-import com.wellsfargo.springboot.repository.LoanCardRepository;
+import com.wellsfargo.springboot.dao.LoanCardRepository;
 import com.wellsfargo.springboot.service.LoanCarddetails;
 //import net.javaguides.springboot.exception.ResourceNotFoundException;
 //import net.javaguides.springboot.model.LoanCard;

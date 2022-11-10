@@ -1,7 +1,7 @@
 package com.wellsfargo.springboot.service;
 
 import com.wellsfargo.springboot.model.LoanCard;
-import com.wellsfargo.springboot.repository.LoanCardRepository;
+import com.wellsfargo.springboot.dao.LoanCardRepository;
 //import net.javaguides.springboot.model.LoanCard;
 //import net.javaguides.springboot.repository.LoanCardRepository;
 import org.springframework.beans.factory.annotation.Autowired;

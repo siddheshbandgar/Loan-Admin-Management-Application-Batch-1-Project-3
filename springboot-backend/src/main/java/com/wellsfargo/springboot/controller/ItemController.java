@@ -2,7 +2,7 @@ package com.wellsfargo.springboot.controller;
 
 import com.wellsfargo.springboot.exception.ResourceNotFoundException;
 import com.wellsfargo.springboot.model.Item;
-import com.wellsfargo.springboot.repository.ItemRepository;
+import com.wellsfargo.springboot.dao.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

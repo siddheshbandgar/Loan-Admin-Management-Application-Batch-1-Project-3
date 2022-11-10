@@ -1,4 +1,4 @@
-package com.wellsfargo.springboot.repository;
+package com.wellsfargo.springboot.dao;
 
 
 import com.wellsfargo.springboot.model.Item;
